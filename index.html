@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<title>Places</title>
+	<meta name="description" content="Places HTML Directory template powered by Mapplic.">
+
+	<!-- Viewport for Responsivity -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/magnificpopup.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+</head>
+<body>
+<div id="wrap">
+	<!-- Header -->
+	<header id="header">
+		<!-- Header Bar -->
+		<div id="header-bar" class="base-bg light-text">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<ul class="list-inline">
+							<li class="bar-list-item"><i class="icon icon-clock primary-color"></i><small><span class="hidden-xs">Open until </span>10:00 PM</small></li>
+						</ul>
+					</div>
+
+					<div class="col-xs-8">
+						<ul class="list-inline right">
+							<li class="bar-list-item">
+								<i class="icon icon-phone"></i><small>(415) 555-0125</small>
+							</li>
+							<li class="bar-list-item">
+								<a href="directory.html"><i class="icon icon-location-pin primary-color"></i><small><span class="hidden-xs">Mall </span>Directory</small></a>
+							</li>
+							<li class="dropdown hidden-xs">
+								<a href="#" class="bar-list-item dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<i class="icon icon-globe-alt primary-color"></i><small>EN</small>
+								</a>
+								<ul class="dropdown-menu dark-text" aria-labelledby="language-dropdown">
+									<li><a href="#">DE</a></li>
+									<li><a href="#">ES</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Navigation -->
+		<div class="inner container-fluid">
+			<div class="relative">
+				<a class="main-logo left" href="./"><img src="img/places-logo.svg" alt="logo">Places<strong>MALL</strong></a>
+
+				<!-- Mobile Menu Button -->
+				<div class="nav-icon">
+					<div></div>
+				</div>
+
+				<nav id="main-menu">
+					<ul>
+						<li class="active"><a href="./">Home</a></li>
+						<li>
+							<a href="about.html">About</a>
+						</li>
+						<li>
+							<a href="directory-list.html" class="dropdown">Directory</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="location.html">Location</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="blog.html" class="dropdown">Events &amp; Promotions</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="blog.html">Blog Standard</a></li>
+									<li><a href="blog-nosidebar.html">Blog Standard No Sidebar</a></li>
+									<li><a href="blog-small.html">Blog Small</a></li>
+									<li><a href="blog-masonry.html">Blog Masonry</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends -->
+
+	<!-- Content --> 
+	<div id="content">
+
+		<!-- Slider -->
+		<div id="main-slider" class="slider swiper-container">
+			<div class="swiper-wrapper">
+				<div class="slide swiper-slide" data-bg-image="img/abusax-1.JPG">
+					<div class="inner">
+						<div class="slider-text light-text">
+							<h5 data-swiper-parallax="-200">New Fashion Trends</h5>
+							<h1 data-swiper-parallax="-400">Release your <strong>Wild Side</strong></h1>
+							<p data-swiper-parallax="-600">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, do eiusmod tempor.</p><br>
+							<a href="#hnm" class="btn btn-lg btn-primary mapplic-link" data-swiper-parallax="-1000">Show Location</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide swiper-slide" data-bg-image="img/abusax-2.JPG">
+					<div class="inner">
+						<div class="slider-text text-center">
+							<h5 data-swiper-parallax="-200">Never Get Lost</h5>
+							<h1 data-swiper-parallax="-400">Browse <strong>Directory</strong></h1>
+							<p data-swiper-parallax="-600">Finding a show has never bee so easy,<br> everything is at your fingertips.</p><br>
+							<a href="directory.html" class="btn btn-lg btn-primary" data-swiper-parallax="-1000">Directory</a>
+						</div>
+					</div>
+				</div>
+				<div class="slide swiper-slide" data-bg-image="img/abusax-3.JPG">
+					<div class="inner">
+						<div class="slider-text light-text text-right">
+							<h5 data-swiper-parallax="-200">Personalized Shopping</h5>
+							<h1 data-swiper-parallax="-400">Mid Season <strong>Sale</strong></h1>
+							<p data-swiper-parallax="-600">Lorem ipsum dolor sit amet, consectetur<br> adipisicing elit, do eiusmod tempor.</p><br>
+							<a href="#macys" class="btn btn-lg btn-primary mapplic-link" data-swiper-parallax="-1000">Show Location</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination swiper-pagination-white"></div>
+		</div>
+
+		<!-- Clients -->
+		<section class="gray">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-md-4 margin-xs text-right text-center-xs">
+						<h5>Clients</h5>
+						<h2 class="no-margin">Our valued <strong>clients</strong>, your favorite locations.</h2>
+					</div>
+					<div class="col-md-8">
+						<div class="client-slider swiper-container">
+							<div class="swiper-wrapper">
+								<div class="client-slide swiper-slide">
+									<a href="#"><img src="img/logos/logo1.png" alt="logo"></a>
+								</div>
+								<div class="client-slide swiper-slide">
+									<a href="location.html"><img src="img/logos/logo2.png" alt="logo"></a>
+								</div>
+								<div class="client-slide swiper-slide">
+									<a href="#"><img src="img/logos/logo3.png" alt="logo"></a>
+								</div>
+								<div class="client-slide swiper-slide">
+									<a href="#"><img src="img/logos/logo4.png" alt="logo"></a>
+								</div>
+								<div class="client-slide swiper-slide">
+									<a href="#"><img src="img/logos/logo5.png" alt="logo"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Grid -->
+		<section class="sec-sm">
+			<div class="inner container-fluid light-text">
+				<div class="grid">
+					<div class="col-sm-6 col-xs-12">
+						<div class="grid-item">
+							<div class="grid-image" data-bg-image="img/image4.jpg"></div>
+							<div class="dim"></div>
+							<div class="grid-desc bottom-left">
+								<h5>Mid season Sale</h5>
+								<h2 class="grid-title"><a href="#">Women's fashion</a></h2>
+								<div class="entry-meta">
+									<small><a href="#"><i class="icon icon-location-pin"></i>12 Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>2</a></small>
+								</div>
+							</div>
+							<div class="top-right padding">
+								<span class="tag tag-default"><a href="#">20% OFF</a></span>
+								<span class="tag tag-sale"><a href="#">SALE</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="grid-item">
+							<div class="grid-image" data-bg-image="img/image2.jpg"></div>
+							<div class="dim"></div>
+							<div class="grid-desc bottom-left">
+								<h5>New Collection</h5>
+								<h3 class="grid-title"><a href="#">Men's fashion</a></h3>
+								<div class="entry-meta">
+									<small><a href="#pullnbear" class="mapplic-link"><i class="icon icon-location-pin"></i>35a First Floor</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>2</a></small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="grid-item">
+							<div class="grid-image" data-bg-image="img/image7.jpg"></div>
+							<div class="dim"></div>
+							<div class="grid-desc bottom-left">
+								<h5>Discount Baby Clothes</h5>
+								<h3 class="grid-title"><a href="#">Kid's wear</a></h3>
+								<div class="entry-meta">
+									<small><a href="#"><i class="icon icon-location-pin"></i>8 Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>2</a></small>
+								</div>
+							</div>
+							<div class="top-right padding">
+								<span class="tag tag-default"><a href="#">PROMOTION</a></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-3 col-xs-6">
+						<div class="grid-item">
+							<div class="grid-image" data-bg-image="img/image6.jpg"></div>
+							<div class="dim"></div>
+							<div class="grid-desc bottom-left">
+								<h5>Just Opened</h5>
+								<h3 class="grid-title"><a href="#">Bloomingdale's</a></h3>
+								<div class="entry-meta">
+									<small><a href="#"><i class="icon icon-location-pin"></i>13 Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>2</a></small>
+								</div>
+							</div>
+							<div class="top-right padding">
+								<span class="tag tag-primary"><a href="#">OPENED</a></span>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-3 col-xs-6">
+						<div class="grid-item">
+							<div class="grid-image" data-bg-image="img/image3.jpg"></div>
+							<div class="dim"></div>
+							<div class="grid-desc bottom-left">
+								<h5>Best Coffee</h5>
+								<h3 class="grid-title"><a href="#">Starbucks</a></h3>
+								<div class="entry-meta">
+									<small><a href="#starbucks" class="mapplic-link"><i class="icon icon-location-pin"></i>23b Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>2</a></small>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-xs-12">
+						<div class="grid-item">
+							<div class="grid-image" data-bg-image="img/image5.jpg"></div>
+							<div class="dim"></div>
+							<div class="grid-desc bottom-left">
+								<h5>Eat Healthy</h5>
+								<h2 class="grid-title"><a href="#">Pasta la Vista</a></h2>
+								<div class="entry-meta">
+									<small><a href="#subway" class="mapplic-link"><i class="icon icon-location-pin"></i>42 First Floor</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>2</a></small>
+								</div>
+							</div>
+							<div class="top-right padding">
+								<span class="tag tag-default"><a href="#">HIRING</a></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Map -->
+		<section class="gray">
+			<div id="mapplic-front"></div>
+		</section>
+
+		<!-- Counters -->
+		<section class="sec-lg counters light-text" data-bg-image="img/bg.jpg">
+			<div class="dim"></div>
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-md-3 col-xs-6 margin-xs text-center">
+						<i class="icon icon-lg icon-handbag counter-icon primary-color"></i>
+						<span class="counter">10000</span>
+						<h4>Shops</h4>
+					</div>
+					<div class="col-md-3 col-xs-6 margin-xs text-center">
+						<i class="icon icon-lg icon-cup counter-icon primary-color"></i>
+						<span class="counter">19</span>
+						<h4>Restaurants</h4>
+					</div>
+					<div class="col-md-3 col-xs-6 text-center">
+						<i class="icon icon-lg icon-layers counter-icon primary-color"></i>
+						<span class="counter">64984</span>
+						<h4>heactares</h4>
+					</div>
+					<div class="col-md-3 col-xs-6 text-center">
+						<i class="icon icon-lg icon-people counter-icon primary-color"></i>
+						<span class="counter">5000</span>
+						<h4>Vehicels Daily</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Newsletter -->
+		<section>
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<h5><i class="icon icon-book-open"></i> Be Informed</h5>
+						<h2>Subscribe to our <strong>newsletter</strong>,<br> never miss a new deal!</h2>
+						<form class="form-inline" spellcheck="false">
+							<div class="form-group form-group-modern">
+								<label for="inputSubscribe">E-mail <span class="primary-color">*</span></label>
+								<input type="email" class="form-control" id="inputSubscribe">
+							</div>
+							<button class="btn btn-lg btn-primary btn-inline">Subscribe</button>
+						</form>
+						<p class="ps">Your e-mail address is safe with us!</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Browse Letters -->
+		<section class="sec-xs gray">
+			<div class="inner">
+				<ol class="list-unstyled browse-letters">
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">A</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">B</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="4">C</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">D</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="10">E</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="14">F</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">G</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">H</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">I</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="23">J</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="16">K</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">L</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">M</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">N</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">O</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">P</a></li>
+					<li><span data-toggle="tooltip" data-placement="top" title="0">Q</span></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="12">R</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">S</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">T</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">U</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">V</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="3">W</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">X</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">Y</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">Z</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">#</a></li>
+				</ol>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+
+	</div>
+	<!-- Content ends -->
+
+	<!-- Footer -->
+	<footer id="footer" class="light-text">
+		<section class="sec-sm base-bg">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-sm-4 margin-xs">
+						<a class="main-logo" href="#"><img src="img/places-logo-light.svg" alt="logo">Places<strong>MALL</strong></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt aliqua.</p>
+						<ul class="list-unstyled list-inline link-list">
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon icon-social-facebook"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="icon icon-social-twitter"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="icon icon-social-linkedin"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="icon icon-social-instagram"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="icon icon-social-pintarest"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="PayPal"><i class="icon icon-paypal"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4 col-sm-offset-2">
+						<h4>Clients</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Spaces</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Locations</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Directory</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Company</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Information</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec-xs base-bg">
+			<div class="inner footer-bar">
+				<span class="copyright">Copyright &copy; 2016<span class="hidden-xs"> - All Rights Reserved</span></span>
+				<ul class="list-unstyled list-inline link-list right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer ends -->
+
+</div>
+	<!-- General scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+	
+	<!-- Includes -->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/magnificpopup.js"></script>
+	<script type="text/javascript" src="js/skycons.js"></script>
+	
+	<!-- Mapplic scripts -->
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+	<script type="text/javascript" src="mapplic/mapplic.js"></script>
+	<script type="text/javascript" src="js/places.js"></script>
+</body>
+</html>

@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<title>Places</title>
+	<meta name="description" content="Places HTML Directory template powered by Mapplic.">
+
+	<!-- Viewport for Responsivity -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/magnificpopup.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+</head>
+<body>
+<div id="wrap">
+	<!-- Header -->
+	<header id="header">
+		<!-- Header Bar -->
+		<div id="header-bar" class="base-bg light-text">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<ul class="list-inline">
+							<li class="bar-list-item"><i class="icon icon-clock primary-color"></i><small><span class="hidden-xs">Open until </span>10:00 PM</small></li>
+						</ul>
+					</div>
+
+					<div class="col-xs-8">
+						<ul class="list-inline right">
+							<li class="bar-list-item">
+								<i class="icon icon-phone"></i><small>(415) 555-0125</small>
+							</li>
+							<li class="bar-list-item">
+								<a href="directory.html"><i class="icon icon-location-pin primary-color"></i><small><span class="hidden-xs">Mall </span>Directory</small></a>
+							</li>
+							<li class="dropdown hidden-xs">
+								<a href="#" class="bar-list-item dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<i class="icon icon-globe-alt primary-color"></i><small>EN</small>
+								</a>
+								<ul class="dropdown-menu dark-text" aria-labelledby="language-dropdown">
+									<li><a href="#">DE</a></li>
+									<li><a href="#">ES</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Navigation -->
+		<div class="inner container-fluid">
+			<div class="relative">
+				<a class="main-logo left" href="./"><img src="img/places-logo.svg" alt="logo">Places<strong>MALL</strong></a>
+
+				<!-- Mobile Menu Button -->
+				<div class="nav-icon">
+					<div></div>
+				</div>
+
+				<nav id="main-menu">
+					<ul>
+						<li><a href="./">Home</a></li>
+						<li>
+							<a href="about.html" class="dropdown">About</a>
+							<div class="menu-secondary secondary-full light-text base-bg">
+								<div class="row">
+									<div class="col-sm-6 hidden-xs">
+										<h5><i class="icon icon-badge"></i> Hire the best</h5>
+										<h3>Do you <strong>need a map</strong> drawn?<br> Nothing better than a fresh new map!</h3>
+										<a href="#" class="btn btn-primary btn-round">Request a Quote</a>
+										<p class="ps">Custom built maps starting at $80.</p>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Pages</h4>
+										<ul class="link-list">
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="directions.html">Directions</a></li>
+											<li><a href="location.html">Location</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="404.html">Not Found</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Company</h4>
+										<ul class="link-list">
+											<li><a href="#">Mapplic</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Parking</a></li>
+											<li><a href="#">Staff</a></li>
+											<li><a href="#">Boutiques</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Demos</h4>
+										<ul class="link-list">
+											<li><a href="#">Places Mall</a> <small class="label label-danger">New</small></li>
+											<li><a href="#">Places Corp</a></li>
+											<li><a href="#">More Demos</a></li>
+											<li><a href="#">Coming Soon</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="active">
+							<a href="directory.html" class="dropdown">Directory</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="directory.html">Standard</a></li>
+									<li><a href="directory-list.html">Directory List</a></li>
+									<li><a href="directory-grid.html">Directory Grid</a></li>
+									<li><a href="directory-nomap.html">Directory No Map</a></li>
+									<li><a href="directory-letter.html">Groups by Letters</a></li>
+									<li><a href="location.html">Location</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="blog.html" class="dropdown">Events &amp; Promotions</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="blog.html">Blog Standard</a></li>
+									<li><a href="blog-nosidebar.html">Blog Standard No Sidebar</a></li>
+									<li><a href="blog-small.html">Blog Small</a></li>
+									<li><a href="blog-masonry.html">Blog Masonry</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends -->
+
+	<!-- Content --> 
+	<div id="content">
+	
+		<!-- Search -->
+		<section class="sec-sm title">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="form-group has-feedback">
+						<div class="col-sm-4 control-label text-left text-center-xs">
+							<h5><i class="icon icon-map"></i> Search for anything</h5>
+							<h2>Browse <strong>Directory</strong></h2>
+						</div>
+						<div class="col-sm-8">
+							<input type="search" class="form-control input-lg mapplic-search" id="directory-search" placeholder="Search for store..." spellcheck="false">
+							<span class="icon-magnifier icon icon-lg form-control-feedback" aria-hidden="true"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Map -->
+		<section>
+			<div id="mapplic-dir"></div>
+		</section>
+
+		<!-- Directory -->
+		<section class="sec-sm">
+			<div class="inner container-fluid filterable">
+
+				<!-- Search heading -->
+				<h2 class="main-heading heading-search"><span class="search-count highlighted">0</span> found</h2>
+
+				<!-- Locations -->
+				<div class="row locations">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<h2 class="main-heading"><span class="highlighted">A</span></h2>
+						<a class="entry mapplic-link" href="#adidas">
+							<div class="media-left">
+								<img class="thumbnail" src="img/thumb1.jpg" alt="logo">
+								<div class="category-dot"></div>
+							</div>
+							<div class="media-body">
+								<span class="tag tag-default right">20% OFF</span>
+								<small>Sportswear</small>
+								<strong class="entry-title">Adidas</strong>
+							</div>
+						</a>
+						<a class="entry" href="#">
+							<div class="media-left">
+								<img class="thumbnail" src="img/thumb.jpg" alt="logo">
+								<div class="category-dot"></div>
+							</div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">Aeropostale</strong>
+							</div>
+						</a>
+						<a class="entry" href="#">
+							<small>Footwear</small>
+							<strong class="entry-title">Aldo</strong>
+						</a>
+						<a class="entry mapplic-link" href="#amc">
+							<div class="media-left">
+								<img class="thumbnail" src="img/thumb6.jpg" alt="logo">
+								<div class="category-dot"></div>
+							</div>
+							<div class="media-body">
+								<small>Entertainment</small>
+								<span class="tag tag-default right">PROMO</span>
+								<strong class="entry-title">AMC Theatres</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#applebees">
+							<div class="media-left">
+								<img class="thumbnail" src="img/thumb7.jpg" alt="logo">
+								<div class="category-dot"></div>
+							</div>
+							<div class="media-body">
+								<small>Restaurant</small>
+								<strong class="entry-title">Applebee's</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#atnt">
+							<div class="media-left"><img class="thumbnail" src="img/thumb8.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Telecommunication</small>
+								<strong class="entry-title">at&amp;t</strong>
+							</div>
+						</a>
+
+						<h2 class="main-heading"><span class="highlighted">B</span></h2>
+						<a class="entry entry-title" href="#">Banana Republic</a>
+						<a class="entry entry-title" href="#">Bershka</a>
+						<a class="entry entry-title" href="#">Best Buy</a>
+						<a class="entry entry-title" href="#">Bloomingdale's</a>
+
+						<h2 class="main-heading"><span class="highlighted">C</span></h2>
+						<a class="entry entry-title" href="#">Calvin Klein</a>
+						<a class="entry entry-title" href="#">Columbia</a>
+
+						<h2 class="main-heading"><span class="highlighted">D</span></h2>
+						<a class="entry entry-title" href="#">Deichmann</a>
+						<a class="entry entry-title" href="#">Diesel</a>
+						<a class="entry entry-title" href="#">Dior</a>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<h2 class="main-heading"><span class="highlighted">E</span></h2>
+						<a class="entry entry-title" href="#">Ecco</a>
+
+						<h2 class="main-heading"><span class="highlighted">F</span></h2>
+						<a class="entry entry-title" href="#">Foot Locker</a>
+						<a class="entry entry-title" href="#">Forever 21</a>
+						<a class="entry entry-title" href="#">Fossil</a>
+
+						<h2 class="main-heading"><span class="highlighted">G</span></h2>
+						<a class="entry mapplic-link" href="#gap">
+							<div class="media-left"><img class="thumbnail" src="img/thumb4.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">GAP</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#geox">
+							<div class="media-left"><img class="thumbnail" src="img/thumb3.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Footwear</small>
+								<strong class="entry-title">Geox</strong>
+							</div>
+						</a>
+						<a class="entry entry-title" href="#">Gucci</a>
+
+						<h2 class="main-heading"><span class="highlighted">H</span></h2>
+						<a class="entry entry-title" href="#">Hallmark</a>
+						<a class="entry entry-title" href="#">H&auml;agen-Dazs</a>
+						<a class="entry mapplic-link" href="#hnm">
+							<div class="media-left"><img class="thumbnail" src="img/thumb2.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">H&amp;M</strong>
+							</div>
+						</a>
+
+						<h2 class="main-heading"><span class="highlighted">J</span></h2>
+						<a class="entry entry-title" href="#">Jack&amp;Jones</a>
+						<a class="entry entry-title" href="#">Jack Wolfskin</a>
+
+						<h2 class="main-heading"><span class="highlighted">K</span></h2>
+						<a class="entry mapplic-link" href="#kfc">
+							<div class="media-left"><img class="thumbnail" src="img/thumb7.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Fast-Food</small>
+								<strong class="entry-title">KFC</strong>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<h2 class="main-heading"><span class="highlighted">L</span></h2>
+						<a class="entry mapplic-link" href="#">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">Lacoste</strong>
+							</div>
+						</a>
+						<a class="entry entry-title" href="#">Louis Vuitton</a>
+
+						<h2 class="main-heading"><span class="highlighted">M</span></h2>
+						<a class="entry mapplic-link" href="#macys">
+							<div class="media-left">
+								<img class="thumbnail" src="img/thumb2.jpg" alt="logo">
+								<div class="category-dot"></div>
+							</div>
+							<div class="media-body">
+								<small>Department Store</small>
+								<strong class="entry-title">Macy's</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#massimodutti">
+							<div class="media-left">
+								<img class="thumbnail" src="img/thumb4.jpg" alt="logo">
+								<div class="category-dot"></div>
+							</div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">Massimo Dutti</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">Michael Kors</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Electronics</small>
+								<strong class="entry-title">Microsoft</strong>
+							</div>
+						</a>
+
+						<h2 class="main-heading"><span class="highlighted">N</span></h2>
+						<a class="entry entry-title" href="#">NewYorker</a>
+						<a class="entry entry-title" href="#">Nike</a>
+
+						<h2 class="main-heading"><span class="highlighted">O</span></h2>
+						<a class="entry entry-title" href="#">Old Navy</a>
+
+						<h2 class="main-heading"><span class="highlighted">P</span></h2>
+						<a class="entry entry-title" href="#">Pandora</a>
+						<a class="entry mapplic-link" href="#pullnbear">
+							<div class="media-left"><img class="thumbnail" src="img/thumb3.jpg" alt="logo"></div>
+							<div class="media-body">
+								<span class="tag tag-sale right">SALE</span>
+								<small>Fashion</small>
+								<strong class="entry-title">Pull &amp; Bear</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Fashion</small>
+								<strong class="entry-title">Prada</strong>
+							</div>
+						</a>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+						<h2 class="main-heading"><span class="highlighted">S</span></h2>
+						<a class="entry mapplic-link" href="#sears">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Department Store</small>
+								<strong class="entry-title">Sears</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#sephora">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Cosmetics</small>
+								<strong class="entry-title">Sephora</strong>
+							</div>
+						</a>
+						<a class="entry mapplic-link" href="#starbucks">
+							<div class="media-left"><img class="thumbnail" src="img/thumb6.jpg" alt="logo"></div>
+							<div class="media-body">
+								<small>Coffee Shop</small>
+								<strong class="entry-title">Starbucks</strong>
+							</div>
+						</a>
+						<a class="entry entry-title" href="#">Stradivarius</a>
+						<a class="entry mapplic-link" href="#subway">
+							<small>Eat Fresh</small>
+							<strong class="entry-title">Subway</strong>
+						</a>
+						<a class="entry entry-title" href="#">Swarovski</a>
+
+						<h2 class="main-heading"><span class="highlighted">T</span></h2>
+						<a class="entry entry-title" href="#">Tiffany &amp; Co.</a>
+						<a class="entry entry-title" href="#">Tommy Hilfiger</a>
+
+						<h2 class="main-heading"><span class="highlighted">U</span></h2>
+						<a class="entry entry-title" href="#">Urban Outfitters</a>
+						<a class="entry entry-title" href="#">UGG Australia</a>
+
+						<h2 class="main-heading"><span class="highlighted">V</span></h2>
+						<a class="entry entry-title" href="#">VANS</a>
+						<a class="entry entry-title" href="#">Victoria's Secret</a>
+
+						<h2 class="main-heading"><span class="highlighted">W</span></h2>
+						<a class="entry mapplic-link" href="#walgreens">
+							<div class="media-left"><img class="thumbnail" src="img/thumb.jpg" alt="logo"></div>
+							<div class="media-body">
+								<span class="tag tag-default right">HIRING</span>
+								<small>Health</small>
+								<strong class="entry-title">Walgreens</strong>
+							</div>
+						</a>
+
+						<h2 class="main-heading"><span class="highlighted">Z</span></h2>
+						<a class="entry mapplic-link" href="#zara">
+							<div class="media-left"><img class="thumbnail" src="img/thumb1.jpg" alt="logo"></div>
+							<div class="media-body">
+								<span class="tag tag-sale right">SALE</span>
+								<small>Fasion</small>
+								<strong class="entry-title">Zara</strong>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Alphabet -->
+		<section class="sec-xs gray">
+			<div class="inner">
+				<ol class="list-unstyled browse-letters">
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">#</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">A</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">B</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="4">C</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">D</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="10">E</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="14">F</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">G</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">H</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">I</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="23">J</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="16">K</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">L</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">M</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">N</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">O</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">P</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="11">Q</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="12">R</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">S</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">T</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">U</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">V</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="3">W</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">X</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="0">Y</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">Z</a></li>
+				</ol>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+
+	</div>
+	<!-- Content ends -->
+
+	<!-- Footer -->
+	<footer id="footer" class="light-text">
+		<section class="sec-sm base-bg">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-sm-4 margin-xs">
+						<a class="main-logo" href="#"><img src="img/places-logo-light.svg" alt="logo">Places<strong>MALL</strong></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt aliqua.</p>
+						<ul class="list-unstyled list-inline link-list">
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon icon-social-facebook"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="icon icon-social-twitter"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="icon icon-social-linkedin"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="icon icon-social-instagram"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="icon icon-social-pintarest"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="PayPal"><i class="icon icon-paypal"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4 col-sm-offset-2">
+						<h4>Clients</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Spaces</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Locations</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Directory</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Company</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Information</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec-xs base-bg">
+			<div class="inner footer-bar">
+				<span class="copyright">Copyright &copy; 2016<span class="hidden-xs"> - All Rights Reserved</span></span>
+				<ul class="list-unstyled list-inline link-list right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer ends -->
+
+</div>
+	<!-- General scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+	
+	<!-- Includes -->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/magnificpopup.js"></script>
+	<script type="text/javascript" src="js/skycons.js"></script>
+	
+	<!-- Mapplic scripts -->
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+	<script type="text/javascript" src="mapplic/mapplic.js"></script>
+	<script type="text/javascript" src="js/places.js"></script>
+</body>
+</html>

@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<title>Places</title>
+	<meta name="description" content="Places HTML Directory template powered by Mapplic.">
+
+	<!-- Viewport for Responsivity -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/magnificpopup.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+</head>
+<body>
+<div id="wrap">
+	<!-- Header -->
+	<header id="header">
+		<!-- Header Bar -->
+		<div id="header-bar" class="base-bg light-text">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<ul class="list-inline">
+							<li class="bar-list-item"><i class="icon icon-clock primary-color"></i><small><span class="hidden-xs">Open until </span>10:00 PM</small></li>
+						</ul>
+					</div>
+
+					<div class="col-xs-8">
+						<ul class="list-inline right">
+							<li class="bar-list-item">
+								<i class="icon icon-phone"></i><small>(415) 555-0125</small>
+							</li>
+							<li class="bar-list-item">
+								<a href="directory.html"><i class="icon icon-location-pin primary-color"></i><small><span class="hidden-xs">Mall </span>Directory</small></a>
+							</li>
+							<li class="dropdown hidden-xs">
+								<a href="#" class="bar-list-item dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<i class="icon icon-globe-alt primary-color"></i><small>EN</small>
+								</a>
+								<ul class="dropdown-menu dark-text" aria-labelledby="language-dropdown">
+									<li><a href="#">DE</a></li>
+									<li><a href="#">ES</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Navigation -->
+		<div class="inner container-fluid">
+			<div class="relative">
+				<a class="main-logo left" href="./"><img src="img/places-logo.svg" alt="logo">Places<strong>MALL</strong></a>
+
+				<!-- Mobile Menu Button -->
+				<div class="nav-icon">
+					<div></div>
+				</div>
+
+				<nav id="main-menu">
+					<ul>
+						<li><a href="./">Home</a></li>
+						<li class="active">
+							<a href="about.html" class="dropdown">About</a>
+							<div class="menu-secondary secondary-full light-text base-bg">
+								<div class="row">
+									<div class="col-sm-6 hidden-xs">
+										<h5><i class="icon icon-badge"></i> Hire the best</h5>
+										<h3>Do you <strong>need a map</strong> drawn?<br> Nothing better than a fresh new map!</h3>
+										<a href="#" class="btn btn-primary btn-round">Request a Quote</a>
+										<p class="ps">Custom built maps starting at $80.</p>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Pages</h4>
+										<ul class="link-list">
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="directions.html">Directions</a></li>
+											<li><a href="location.html">Location</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="404.html">Not Found</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Company</h4>
+										<ul class="link-list">
+											<li><a href="#">Mapplic</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Parking</a></li>
+											<li><a href="#">Staff</a></li>
+											<li><a href="#">Boutiques</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Demos</h4>
+										<ul class="link-list">
+											<li><a href="#">Places Mall</a> <small class="label label-danger">New</small></li>
+											<li><a href="#">Places Corp</a></li>
+											<li><a href="#">More Demos</a></li>
+											<li><a href="#">Coming Soon</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="directory.html" class="dropdown">Directory</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="directory.html">Standard</a></li>
+									<li><a href="directory-list.html">Directory List</a></li>
+									<li><a href="directory-grid.html">Directory Grid</a></li>
+									<li><a href="directory-nomap.html">Directory No Map</a></li>
+									<li><a href="directory-letter.html">Groups by Letters</a></li>
+									<li><a href="location.html">Location</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="blog.html" class="dropdown">Events &amp; Promotions</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="blog.html">Blog Standard</a></li>
+									<li><a href="blog-nosidebar.html">Blog Standard No Sidebar</a></li>
+									<li><a href="blog-small.html">Blog Small</a></li>
+									<li><a href="blog-masonry.html">Blog Masonry</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends -->
+
+	<!-- Content --> 
+	<div id="content">
+		
+		<!-- Title -->
+		<section class="sec-sm white title text-center">
+			<div class="inner">
+				<h5><i class="icon icon-puzzle"></i> The Inventory</h5>
+				<h1>Page <strong>Elements</strong></h1>
+			</div>
+		</section>
+
+		<section>
+			<div class="inner">
+				<div class="row">
+					<div class="col-md-8">
+						<div id="mapplic-element"></div>
+					</div>
+					<div class="col-md-4">
+						<h5>Interactive Maps</h5>
+						<h2><strong>Mapplic</strong>&trade;</h2>
+						<p>Places is truly unique thanks to Mapplic, the custom interactive map plugin that let's you create a map for anything you can think of.</p>
+						<a href="http://www.mapplic.com/plugin" target="_blank" class="btn btn-primary right">Learn More</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="white">
+			<div class="inner">
+				<div class="row">
+					<!-- Tabs -->
+					<div class="col-sm-4">
+						<h2>Tabs</h2>
+						<!-- Tab Nav -->
+						<ul class="nav nav-tabs" role="tablist">
+							<li role="presentation" class="active"><a href="#history" aria-controls="history" role="tab" data-toggle="tab">First</a></li>
+							<li role="presentation"><a href="#facts" aria-controls="facts" role="tab" data-toggle="tab">Second</a></li>
+							<li role="presentation"><a href="#testimonials" aria-controls="testimonials" role="tab" data-toggle="tab">Third</a></li>
+						</ul>
+
+						<!-- Tab panes -->
+						<div class="tab-content">
+							<div role="tabpanel" class="tab-pane fade in active" id="history">
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+							</div>
+							<div role="tabpanel" class="tab-pane fade in" id="facts">
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+							</div>
+							<div role="tabpanel" class="tab-pane fade in" id="testimonials">
+								<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+							</div>
+						</div>
+					</div>
+					<!-- Styled Lists -->
+					<div class="col-sm-4">
+						<h2>Styled Lists</h2>
+						<div class="row">
+							<div class="col-xs-6">
+								<h4>Ordered</h4>
+								<ol class="list-styled">
+									<li><span>List item</span></li>
+									<li><span>List item</span></li>
+									<li><span>List item</span></li>
+									<li><span>List item</span></li>
+								</ol>
+							</div>
+							<div class="col-xs-6">
+								<h4>Unordered</h4>
+								<ul class="list-styled">
+									<li><span>List item</span></li>
+									<li><span>List item</span></li>
+									<li><span>List item</span></li>
+									<li><span>List item</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-4">
+						<h2>Tables</h2>
+						<table class="table table-hover">
+							<thead>
+								<tr>
+									<th>#</th>
+									<th>First Name</th>
+									<th>Last Name</th>
+									<th>Username</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th scope="row">1</th>
+									<td>Mark</td>
+									<td>Otto</td>
+									<td>@mdo</td>
+								</tr>
+								<tr>
+									<th scope="row">2</th>
+									<td>Jacob</td>
+									<td>Thornton</td>
+									<td>@fat</td>
+								</tr>
+								<tr>
+									<th scope="row">3</th>
+									<td>Larry</td>
+									<td>the Bird</td>
+									<td>@twitter</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-md-4 col-md-offset-4 text-center">
+						<div>
+							<h5>Interaction</h5>
+							<h2><strong>Forms</strong> &amp; Fields</h2>
+						</div>
+						<form class="form-modern" spellcheck="false">
+							<div class="form-group form-group-modern col-xs-6">
+								<label for="inputFirstName">First Name</label>
+								<input type="text" class="form-control" id="inputFirstName">
+							</div>
+							<div class="form-group form-group-modern col-xs-6">
+								<label for="inputLastName">Last Name</label>
+								<input type="email" class="form-control" id="inputLastName">
+							</div>
+							<div class="form-group form-group-modern col-xs-12">
+								<label for="selectDepartment">Department</label>
+								<select class="form-control" id="selectDepartment">
+									<option value="advertisin">Advertising</option>
+									<option value="customer-support">Customer Support</option>
+									<option value="information">Information</option>
+									<option value="marketing">Marketing</option>
+								</select>
+								<span class="icon-arrow-down icon-sm form-control-feedback select-arrow"></span>
+							</div>
+							<div class="form-group form-group-modern col-xs-12">
+								<label for="inputKeyword">Search</label>
+								<input type="text" class="form-control" id="inputKeyword">
+								<span class="icon-magnifier form-control-feedback select-arrow"></span>
+							</div>
+							<div class="form-group form-group-modern col-xs-12">
+								<label for="inputMessage">Message</label>
+								<textarea class="form-control" id="inputMessage" rows="4"></textarea>
+							</div>
+							<div class="form-group">
+								<button type="submit" class="btn btn-primary btn-lg">Submit</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="white">
+			<div class="inner">
+				<div class="row">
+					<div class="col-md-4">
+						<h2>Buttons &amp; Links</h2>
+						<a href="#" class="btn btn-default">Default</a>
+						<a href="#" class="btn btn-secondary">Secondary</a>
+						<a href="#" class="btn btn-primary">Primary</a>
+						<br><br>
+
+						<a href="#" class="btn btn-lg btn-primary">Large</a>
+						<a href="#" class="btn btn-lg btn-default">Large</a>
+						<br><br>
+
+						<a href="#" class="btn btn-primary">Default</a>
+						<a href="#" class="btn btn-default">Default</a>
+						<br><br>
+
+						<a href="#" class="btn btn-sm btn-primary">Small</a>
+						<a href="#" class="btn btn-sm btn-default">Small</a>
+						<br><br>
+						<a href="#" class="btn-simple"><i class="icon icon-arrow-right-circle"></i>Simple Button</a>
+					</div>
+
+					<div class="col-md-4">
+						<h2>Typography</h2>
+						<h1><strong>h1.</strong> Places heading</h1>
+						<h2><strong>h2.</strong> Places heading</h2>
+						<h3><strong>h3.</strong> Places Heading</h3>
+						<h4><strong>h4.</strong> Places Heading</h4>
+						<h5><strong>h5.</strong> Places Heading</h5>
+					</div>
+
+					<div class="col-md-4">
+						<h2>Icons</h2>
+						<p>Places is using the beautiful <a class="link-primary" href="http://thesabbir.github.io/simple-line-icons/" target="_blank">Simple Line Icons</a>. It's an icon font set, so you can change the size and color really easy.</p>
+						<ul class="list-unstyled list-inline">
+							<li><i class="icon icon-lg icon-envelope-letter"></i></li>
+							<li><i class="icon icon-lg icon-chemistry"></i></li>
+							<li><i class="icon icon-lg icon-shield"></i></li>
+							<li><i class="icon icon-lg icon-puzzle"></i></li>
+							<li><i class="icon icon-lg icon-wrench"></i></li>
+						</ul>
+						<ul class="list-unstyled list-inline">
+							<li><i class="icon icon-md icon-directions"></i></li>
+							<li><i class="icon icon-md icon-badge"></i></li>
+							<li><i class="icon icon-md icon-wallet"></i></li>
+							<li><i class="icon icon-md icon-handbag"></i></li>
+							<li><i class="icon icon-md icon-book-open"></i></li>
+							<li><i class="icon icon-md icon-layers"></i></li>
+						</ul>
+						<ul class="list-unstyled list-inline link-list">
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon icon-social-facebook"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="icon icon-social-twitter"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="icon icon-social-linkedin"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="icon icon-social-instagram"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="icon icon-social-pintarest"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="PayPal"><i class="icon icon-paypal"></i></a></li>
+						</ul>
+						<p>For the full list of icons, please visit the preview page.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Browse Letters -->
+		<section class="sec-xs gray">
+			<div class="inner">
+				<ol class="list-unstyled browse-letters">
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">#</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">A</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">B</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="4">C</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">D</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="10">E</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="14">F</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">G</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">H</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">I</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="23">J</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="16">K</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">L</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">M</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">N</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">O</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">P</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="11">Q</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="12">R</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">S</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">T</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">U</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">V</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="3">W</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">X</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="0">Y</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">Z</a></li>
+				</ol>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+
+	</div>
+	<!-- Content ends -->
+
+	<!-- Footer -->
+	<footer id="footer" class="light-text">
+		<section class="sec-sm base-bg">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-sm-4 margin-xs">
+						<a class="main-logo" href="#"><img src="img/places-logo-light.svg" alt="logo">Places<strong>MALL</strong></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt aliqua.</p>
+						<ul class="list-unstyled list-inline link-list">
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon icon-social-facebook"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="icon icon-social-twitter"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="icon icon-social-linkedin"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="icon icon-social-instagram"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="icon icon-social-pintarest"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="PayPal"><i class="icon icon-paypal"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4 col-sm-offset-2">
+						<h4>Clients</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Spaces</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Locations</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Directory</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Company</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Information</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec-xs base-bg">
+			<div class="inner footer-bar">
+				<span class="copyright">Copyright &copy; 2016<span class="hidden-xs"> - All Rights Reserved</span></span>
+				<ul class="list-unstyled list-inline link-list right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer ends -->
+
+</div>
+	<!-- General scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+	
+	<!-- Includes -->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/magnificpopup.js"></script>
+	<script type="text/javascript" src="js/skycons.js"></script>
+	
+	<!-- Mapplic scripts -->
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+	<script type="text/javascript" src="mapplic/mapplic.js"></script>
+	<script type="text/javascript" src="js/places.js"></script>
+</body>
+</html>

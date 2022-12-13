@@ -1,0 +1,67 @@
+{
+	"mapwidth": "1000",
+	"mapheight": "500",
+	"categories": [
+		{
+			"id": "food",
+			"title": "Fast-foods & Restaurants",
+			"color": "#a5a5a2",
+			"show": "false"
+		},
+		{
+			"id": "dep",
+			"title": "Department Stores",
+			"color": "#a5a5a2",
+			"show": "true"
+		},
+		{
+			"id": "clothing",
+			"title": "Clothing & Accessories",
+			"color": "#a5a5a2",
+			"show": "true"
+		},
+		{
+			"id": "health",
+			"title": "Health & Cosmetics",
+			"color": "#a5a5a2",
+			"show": "true"
+		},
+		{
+			"id": "misc",
+			"title": "Miscellaneous",
+			"color": "#a5a5a2",
+			"show": "true"
+		}
+	],
+	"levels": [
+		{
+			"id": "basement-floor",
+			"title": "Basement",
+			"map": "img/map-abu.svg",
+			"minimap": "img/mall/mall-underground-mini.jpg",
+			"locations": [
+				{
+					"id": "gap",
+					"title": "GAP",
+					"about": "Lorem ipsum",
+					"description": "<p>Recognizing the need is the primary condition for design.</p>",
+					"category": "clothing",
+					"link": "location.html",
+					"x": "0",
+					"y": "0"
+				},
+				{
+					"id": "petco",
+					"title": "Petco",
+					"about": "Lorem ipsum",
+					"description": "<p>Recognizing the need is the primary condition for design.</p>",
+					"category": "misc",
+					"thumbnail": "img/thumb.jpg",
+					"link": "location.html",
+					"x": "0.5183",
+					"y": "0.2700"
+				}
+			]
+		}
+	]
+}
