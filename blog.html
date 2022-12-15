@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<title>Places</title>
+	<meta name="description" content="Places HTML Directory template powered by Mapplic.">
+
+	<!-- Viewport for Responsivity -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/magnificpopup.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+</head>
+<body>
+<div id="wrap">
+	<!-- Header -->
+	<header id="header">
+		<!-- Header Bar -->
+		<div id="header-bar" class="base-bg light-text">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<ul class="list-inline">
+							<li class="bar-list-item"><i class="icon icon-clock primary-color"></i><small><span class="hidden-xs">Open until </span>10:00 PM</small></li>
+						</ul>
+					</div>
+
+					<div class="col-xs-8">
+						<ul class="list-inline right">
+							<li class="bar-list-item">
+								<i class="icon icon-phone"></i><small>(415) 555-0125</small>
+							</li>
+							<li class="bar-list-item">
+								<a href="directory.html"><i class="icon icon-location-pin primary-color"></i><small><span class="hidden-xs">Mall </span>Directory</small></a>
+							</li>
+							<li class="dropdown hidden-xs">
+								<a href="#" class="bar-list-item dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<i class="icon icon-globe-alt primary-color"></i><small>EN</small>
+								</a>
+								<ul class="dropdown-menu dark-text" aria-labelledby="language-dropdown">
+									<li><a href="#">DE</a></li>
+									<li><a href="#">ES</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Navigation -->
+		<div class="inner container-fluid">
+			<div class="relative">
+				<a class="main-logo left" href="./"><img src="img/places-logo.svg" alt="logo">Places<strong>MALL</strong></a>
+
+				<!-- Mobile Menu Button -->
+				<div class="nav-icon">
+					<div></div>
+				</div>
+
+				<nav id="main-menu">
+					<ul>
+						<li><a href="./">Home</a></li>
+						<li>
+							<a href="about.html" class="dropdown">About</a>
+							<div class="menu-secondary secondary-full light-text base-bg">
+								<div class="row">
+									<div class="col-sm-6 hidden-xs">
+										<h5><i class="icon icon-badge"></i> Hire the best</h5>
+										<h3>Do you <strong>need a map</strong> drawn?<br> Nothing better than a fresh new map!</h3>
+										<a href="#" class="btn btn-primary btn-round">Request a Quote</a>
+										<p class="ps">Custom built maps starting at $80.</p>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Pages</h4>
+										<ul class="link-list">
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="directions.html">Directions</a></li>
+											<li><a href="location.html">Location</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="404.html">Not Found</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Company</h4>
+										<ul class="link-list">
+											<li><a href="#">Mapplic</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Parking</a></li>
+											<li><a href="#">Staff</a></li>
+											<li><a href="#">Boutiques</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Demos</h4>
+										<ul class="link-list">
+											<li><a href="#">Places Mall</a> <small class="label label-danger">New</small></li>
+											<li><a href="#">Places Corp</a></li>
+											<li><a href="#">More Demos</a></li>
+											<li><a href="#">Coming Soon</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<a href="directory.html" class="dropdown">Directory</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="directory.html">Standard</a></li>
+									<li><a href="directory-list.html">Directory List</a></li>
+									<li><a href="directory-grid.html">Directory Grid</a></li>
+									<li><a href="directory-nomap.html">Directory No Map</a></li>
+									<li><a href="directory-letter.html">Groups by Letters</a></li>
+									<li><a href="location.html">Location</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="active">
+							<a href="blog.html" class="dropdown">Events &amp; Promotions</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="blog.html">Blog Standard</a></li>
+									<li><a href="blog-nosidebar.html">Blog Standard No Sidebar</a></li>
+									<li><a href="blog-small.html">Blog Small</a></li>
+									<li><a href="blog-masonry.html">Blog Masonry</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends -->
+
+	<!-- Content --> 
+	<div id="content">
+
+		<!-- Title -->
+		<section class="title sec-sm">
+			<div class="inner">
+				<h5><i class="icon icon-note"></i> What's on</h5>
+				<h1><strong>Events</strong> &amp; Promotions</h1>
+			</div>
+		</section>
+
+		<section>
+			<div class="inner container-fluid">
+				<div class="row">
+					<!-- Posts -->
+					<div class="col-md-8 margin-xs">
+
+						<!-- Post Example 1 -->
+						<article class="post media">
+							<div class="media-left">
+								<div class="date-box">
+									<span class="date-month">MAR</span>
+									<span class="date-day">15</span>
+								</div>
+							</div>
+							<div class="media-body">
+								<a href="single-post.html" class="entry-image"><img src="img/post1.jpg" alt="image"></a>
+								
+								<h2 class="entry-title"><a href="single-post.html">Release your Wild Side!</a></h2>
+								<div class="entry-meta">
+									<small><a href="#">March 15, 2016</a></small>
+									<small><a href="#adidas" class="mapplic-link"><i class="icon icon-location-pin"></i>Bloomingdale's</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>4 Comments</a></small>
+								</div>
+
+								<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident culpa. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+								<a href="single-post.html" class="btn btn-sm btn-primary">Read More</a>
+							</div>
+						</article>
+
+						<!-- Post Example 2 -->
+						<article class="post media">
+							<div class="media-left">
+								<div class="date-box">
+									<span class="date-month">APR</span>
+									<span class="date-day">22</span>
+								</div>
+							</div>
+							<div class="media-body">
+								<a href="#" class="entry-image"><img src="img/post4.jpg" alt="image"></a>
+								
+								<h2 class="entry-title"><a href="#">Personal shopping session with my stylist</a></h2>
+								<div class="entry-meta">
+									<small><a href="#">April 22, 2016</a></small>
+									<small><a href="#adidas" class="mapplic-link"><i class="icon icon-location-pin"></i>Macy's</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>1 Comment</a></small>
+								</div>
+
+								<p>Suspendisse potenti. Morbi nec posuere elit. Vestibulum dignissim mauris eget pharetra volutpat. Sed facilisis venenatis enim sed volutpat. Vestibulum quis ipsum et sapien ornare sodales nec sed elit. Aliquam erat volutpat. Praesent euismod dictum nunc, vel aliquet consectetur nibh aliquam sed. Sed et maximus dolor.</p>
+								<a href="#" class="btn btn-sm btn-primary">Read More</a>
+							</div>
+						</article>
+
+						<!-- Post Example 3 -->
+						<article class="post media">
+							<div class="media-left">
+								<div class="date-box">
+									<span class="date-month">JUN</span>
+									<span class="date-day">4</span>
+								</div>
+							</div>
+							<div class="media-body">
+								<a href="#" class="entry-image"><img src="img/post3.jpg" alt="image"></a>
+
+								<h2 class="entry-title"><a href="#">Valet parking now available</a></h2>
+								<div class="entry-meta">
+									<small><a href="#">June 4, 2016</a></small>
+									<small><a href="#adidas" class="mapplic-link"><i class="icon icon-location-pin"></i>Parking A</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>1 Comment</a></small>
+								</div>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+								<a href="#" class="btn btn-sm btn-primary">Read More</a>
+							</div>
+						</article>
+
+						<!-- Post Example 4 -->
+						<article class="post media">
+							<div class="media-left">
+								<div class="date-box">
+									<span class="date-month">JUN</span>
+									<span class="date-day">13</span>
+								</div>
+							</div>
+							<div class="media-body">
+								<h2 class="entry-title"><a href="#">Presentation of the new 2016 collection</a></h2>
+								<div class="entry-meta">
+									<small><a href="#">June 13, 2016</a></small>
+									<small><a href="#adidas" class="mapplic-link"><i class="icon icon-location-pin"></i>Zara</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>1 Comment</a></small>
+								</div>
+
+								<p>Maecenas auctor vestibulum tellus, ac euismod odio pretium sit amet. Duis non mi rutrum, hendrerit magna ac, malesuada nulla. Nunc sed imperdiet odio. Aenean blandit erat sed diam pretium vehicula. Fusce facilisis sit amet nulla tempor placerat. Aliquam hendrerit lectus vel porta dapibus. Donec non consequat velit, eget tincidunt neque.</p>
+								<a href="#" class="btn btn-sm btn-primary">Read More</a>
+							</div>
+						</article>
+
+						<!-- Post Example 5 -->
+						<article class="post media">
+							<div class="media-left">
+								<div class="date-box">
+									<span class="date-month">JUL</span>
+									<span class="date-day">30</span>
+								</div>
+							</div>
+							<div class="media-body">
+								<div class="embed-responsive embed-responsive-16by9">
+									<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QwaVVsvLlc4?rel=0&amp;showinfo=0" allowfullscreen></iframe>
+								</div>
+
+								<h2 class="entry-title"><a href="#">We belong to something new</a></h2>
+								<div class="entry-meta">
+									<small><a href="#">July 30, 2016</a></small>
+									<small><a href="#adidas" class="mapplic-link"><i class="icon icon-location-pin"></i>Massimo Dutti</a></small>
+									<small><a href="#"><i class="icon icon-bubbles"></i>1 Comment</a></small>
+								</div>
+
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat.</p>
+								<a href="#" class="btn btn-sm btn-primary">Read More</a>
+							</div>
+						</article>
+
+						<!-- Pagination -->
+						<nav>
+							<a href="#" class="btn btn-default"><span aria-hidden="true">&larr;</span> Newer</a>
+							<a href="#" class="btn btn-default right">Older <span aria-hidden="true">&rarr;</span></a>
+						</nav>
+					</div>
+
+					<!-- Sidebar -->
+					<div class="col-md-4 sidebar-right sticky-sidebar">
+
+						<!-- Popular Widget -->
+						<div class="widget">
+							<h3>Popular Events</h3>
+							<div class="entry-sm media">
+								<div class="media-left">
+									<img class="post-thumbnail" src="img/thumb1.jpg" alt="thumb">
+								</div>
+								<div class="media-body">
+									<a class="link-primary" href="#">Release your Wild Side!</a>
+									<div class="entry-meta">
+										<small><a href="#">Massimo Dutti</a></small>
+										<small><a href="#">March 21, 2016</a></small>
+									</div>
+								</div>
+							</div>
+							<div class="entry-sm media">
+								<div class="media-left">
+									<img class="post-thumbnail" src="img/thumb2.jpg" alt="thumb">
+								</div>
+								<div class="media-body">
+									<a class="link-primary" href="#">Personal shopping session with my stylist</a><br>
+									<div class="entry-meta">
+										<small><a href="#">Macy's</a></small>
+										<small><a href="#">March 24, 2016</a></small>
+									</div>
+								</div>
+							</div>
+							<div class="entry-sm media">
+								<div class="media-left">
+									<img class="post-thumbnail" src="img/thumb5.jpg" alt="thumb">
+								</div>
+								<div class="media-body">
+									<a class="link-primary" href="#">Presentation of the new 2016 collection</a>
+									<div class="entry-meta">
+										<small><a href="#">Zara</a></small>
+										<small><a href="#">July 8, 2016</a></small>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- Tags Widget -->
+						<div class="widget">
+							<h3>Popular Tags</h3>
+							<div class="tags">
+								<span class="tag tag-DEFAULT"><a href="#">PROMOTION</a></span>
+								<span class="tag tag-default"><a href="#">SALE</a></span>
+								<span class="tag tag-default"><a href="#">HIRING</a></span>
+								<span class="tag tag-default"><a href="#">COFFEE</a></span>
+								<span class="tag tag-default"><a href="#">FASHION</a></span>
+								<span class="tag tag-default"><a href="#">HEALTH</a></span>
+								<span class="tag tag-default"><a href="#">FOOD</a></span>
+								<span class="tag tag-default"><a href="#">ENTERTAINMENT</a></span>
+								<span class="tag tag-default"><a href="#">COLLECTION</a></span>
+								<span class="tag tag-default"><a href="#">PARKING</a></span>
+							</div>
+						</div>
+
+						<!-- Categories Widget -->
+						<div class="widget">
+							<h3>Categories</h3>
+							<ul class="list-unstyled link-list link-primary no-margin">
+								<li><a href="#">Event</a></li>
+								<li><a href="#">Promotion</a></li>
+								<li><a href="#">News</a></li>
+								<li><a href="#">Just Opened</a></li>
+								<li><a href="#">Hiring</a></li>
+							</ul>
+						</div>
+
+						<!-- Timetable Widget -->
+						<div class="widget timetable">
+							<h5 class="primary-color">Now open!</h5>
+							<h3>Opening Hours</h3>
+							<ol class="list-unstyled">
+								<li>Monday - Friday <span>9:00 AM - 10:00 PM</span></li>
+								<li>Saturday <span>10:00 AM - 11:30 PM</span></li>
+								<li>Sunday <span>10:00 AM - 11:30 PM</span></li>
+							</ol>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+	<!-- Content ends -->
+
+	<!-- Footer -->
+	<footer id="footer" class="light-text">
+		<section class="sec-sm base-bg">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-sm-4 margin-xs">
+						<a class="main-logo" href="#"><img src="img/places-logo-light.svg" alt="logo">Places<strong>MALL</strong></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt aliqua.</p>
+						<ul class="list-unstyled list-inline link-list">
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon icon-social-facebook"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="icon icon-social-twitter"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="icon icon-social-linkedin"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="icon icon-social-instagram"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="icon icon-social-pintarest"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="PayPal"><i class="icon icon-paypal"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4 col-sm-offset-2">
+						<h4>Clients</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Spaces</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Locations</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Directory</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Company</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Information</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec-xs base-bg">
+			<div class="inner footer-bar">
+				<span class="copyright">Copyright &copy; 2016<span class="hidden-xs"> - All Rights Reserved</span></span>
+				<ul class="list-unstyled list-inline link-list right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer ends -->
+
+</div>
+	<!-- General scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+	
+	<!-- Includes -->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/magnificpopup.js"></script>
+	<script type="text/javascript" src="js/skycons.js"></script>
+	
+	<!-- Mapplic scripts -->
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+	<script type="text/javascript" src="mapplic/mapplic.js"></script>
+	<script type="text/javascript" src="js/places.js"></script>
+</body>
+</html>

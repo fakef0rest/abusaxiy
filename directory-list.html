@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<title>Places</title>
+	<meta name="description" content="Places HTML Directory template powered by Mapplic.">
+
+	<!-- Viewport for Responsivity -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/png" href="favicon.png"/>
+
+	<!-- Font -->
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/simple-line-icons.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/magnificpopup.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="mapplic/mapplic.css">
+</head>
+<body>
+<div id="wrap">
+	<!-- Header -->
+	<header id="header">
+		<!-- Header Bar -->
+		<div id="header-bar" class="base-bg light-text">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-xs-4">
+						<ul class="list-inline">
+							<li class="bar-list-item"><i class="icon icon-clock primary-color"></i><small><span class="hidden-xs">Open until </span>10:00 PM</small></li>
+						</ul>
+					</div>
+
+					<div class="col-xs-8">
+						<ul class="list-inline right">
+							<li class="bar-list-item">
+								<i class="icon icon-phone"></i><small>(415) 555-0125</small>
+							</li>
+							<li class="bar-list-item">
+								<a href="directory.html"><i class="icon icon-location-pin primary-color"></i><small><span class="hidden-xs">Mall </span>Directory</small></a>
+							</li>
+							<li class="dropdown hidden-xs">
+								<a href="#" class="bar-list-item dropdown-toggle" id="language-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									<i class="icon icon-globe-alt primary-color"></i><small>EN</small>
+								</a>
+								<ul class="dropdown-menu dark-text" aria-labelledby="language-dropdown">
+									<li><a href="#">DE</a></li>
+									<li><a href="#">ES</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Main Navigation -->
+		<div class="inner container-fluid">
+			<div class="relative">
+				<a class="main-logo left" href="./"><img src="img/places-logo.svg" alt="logo">Places<strong>MALL</strong></a>
+
+				<!-- Mobile Menu Button -->
+				<div class="nav-icon">
+					<div></div>
+				</div>
+
+				<nav id="main-menu">
+					<ul>
+						<li><a href="./">Home</a></li>
+						<li>
+							<a href="about.html" class="dropdown">About</a>
+							<div class="menu-secondary secondary-full light-text base-bg">
+								<div class="row">
+									<div class="col-sm-6 hidden-xs">
+										<h5><i class="icon icon-badge"></i> Hire the best</h5>
+										<h3>Do you <strong>need a map</strong> drawn?<br> Nothing better than a fresh new map!</h3>
+										<a href="#" class="btn btn-primary btn-round">Request a Quote</a>
+										<p class="ps">Custom built maps starting at $80.</p>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Pages</h4>
+										<ul class="link-list">
+											<li><a href="about.html">About Us</a></li>
+											<li><a href="directions.html">Directions</a></li>
+											<li><a href="location.html">Location</a></li>
+											<li><a href="elements.html">Elements</a></li>
+											<li><a href="404.html">Not Found</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Company</h4>
+										<ul class="link-list">
+											<li><a href="#">Mapplic</a></li>
+											<li><a href="#">Careers</a></li>
+											<li><a href="#">Parking</a></li>
+											<li><a href="#">Staff</a></li>
+											<li><a href="#">Boutiques</a></li>
+										</ul>
+									</div>
+									<div class="col-sm-2 col-xs-4">
+										<h4>Demos</h4>
+										<ul class="link-list">
+											<li><a href="#">Places Mall</a> <small class="label label-danger">New</small></li>
+											<li><a href="#">Places Corp</a></li>
+											<li><a href="#">More Demos</a></li>
+											<li><a href="#">Coming Soon</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="active">
+							<a href="directory.html" class="dropdown">Directory</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="directory.html">Standard</a></li>
+									<li><a href="directory-list.html">Directory List</a></li>
+									<li><a href="directory-grid.html">Directory Grid</a></li>
+									<li><a href="directory-nomap.html">Directory No Map</a></li>
+									<li><a href="directory-letter.html">Groups by Letters</a></li>
+									<li><a href="location.html">Location</a></li>
+								</ul>
+							</div>
+						</li>
+						<li>
+							<a href="blog.html" class="dropdown">Events &amp; Promotions</a>
+							<div class="menu-secondary base-bg light-text">
+								<ul class="link-list link-list-lg">
+									<li><a href="blog.html">Blog Standard</a></li>
+									<li><a href="blog-nosidebar.html">Blog Standard No Sidebar</a></li>
+									<li><a href="blog-small.html">Blog Small</a></li>
+									<li><a href="blog-masonry.html">Blog Masonry</a></li>
+									<li><a href="single-post.html">Single Post</a></li>
+								</ul>
+							</div>
+						</li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- Header ends -->
+
+	<!-- Content --> 
+	<div id="content">
+
+		<!-- Search -->
+		<section class="sec-sm title">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="form-group has-feedback">
+						<div class="col-sm-4 control-label text-left text-center-xs">
+							<h5><i class="icon icon-map"></i> Search for anything</h5>
+							<h2>Browse <strong>Directory</strong></h2>
+						</div>
+						<div class="col-sm-8">
+							<input type="search" class="form-control input-lg mapplic-search" id="directory-search" placeholder="Find store..." spellcheck="false">
+							<span class="icon-magnifier icon icon-lg form-control-feedback" aria-hidden="true"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!-- Directory -->
+		<section class="sec-sm">
+			<div class="inner container-fluid">
+
+				<div class="row">
+					<!-- Sidebar -->
+					<div class="col-md-4 sidebar-left sticky-sidebar margin-xs">
+
+						<!-- Map Widget -->
+						<div class="widget">
+							<div id="mapplic-dir-small" class="mapplic-widget"></div>
+						</div>
+
+						<!-- Timetable Widget -->
+						<div class="widget timetable">
+							<h5 class="primary-color">Now open!</h5>
+							<h3>Opening Hours</h3>
+							<ol class="list-unstyled">
+								<li>Monday - Friday <span>9:00 AM - 10:00 PM</span></li>
+								<li>Saturday <span>10:00 AM - 11:30 PM</span></li>
+								<li>Sunday <span>10:00 AM - 11:30 PM</span></li>
+							</ol>
+						</div>
+					</div>
+
+					<!-- Main area -->
+					<div class="col-md-8 filterable entry-list">
+
+						<!-- Search heading -->
+						<h2 class="main-heading heading-search"><span class="search-count highlighted">0</span> found</h2>
+
+						<!-- Locations -->
+						<div class="entry">
+							<div class="media-left">
+								<a href="img/image1.jpg" class="entry-image popup-image">
+									<img class="thumbnail" src="img/image1.jpg" alt="logo">
+									<div class="dim"></div>
+									<i class="icon icon-lg icon-magnifier"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<div class="tags right">
+									<span class="tag tag-default"><a href="#">20% OFF</a></span>
+									<span class="tag tag-sale"><a href="#">SALE</a></span>
+								</div>
+								<small class="entry-category"><a href="#">Sportswear</a></small>
+								<h3 class="entry-title"><a href="location.html">Adidas</a></h3>
+								<div class="entry-meta">
+									<small class="stars">
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star disabled"></i>
+										<a href="#">4 reviews</a>
+									</small>
+									<small><a href="#adidas" class="mapplic-link"><i class="icon icon-location-pin"></i>23b Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-action-redo"></i>1</a></small>
+								</div>
+								<p class="entry-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+							</div>
+						</div>
+
+						<div class="entry">
+							<div class="media-left">
+								<a href="img/image7.jpg" class="entry-image popup-image">
+									<img class="thumbnail" src="img/image7.jpg" alt="logo">
+									<div class="dim"></div>
+									<i class="icon icon-lg icon-magnifier"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<small class="entry-category"><a href="#">Fashion</a></small>
+								<h3 class="entry-title"><a href="#">Aeropostale</a></h3>
+								<div class="entry-meta">
+									<small class="stars">
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star disabled"></i>
+										<i class="glyphicon glyphicon-star disabled"></i>
+										<a href="#">3 reviews</a>
+									</small>
+									<small><a href="#"><i class="icon icon-location-pin"></i>23b Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-action-redo"></i>3</a></small>
+								</div>
+								<p class="entry-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+
+						<div class="entry">
+							<div class="media-left">
+								<a href="img/image4.jpg" class="entry-image popup-image">
+									<img class="thumbnail" src="img/image4.jpg" alt="logo">
+									<div class="dim"></div>
+									<i class="icon icon-lg icon-magnifier"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<span class="tag tag-default right"><a href="#">PROMO</a></span>
+								<small class="entry-category"><a href="#">Footwear</a></small>
+								<h3 class="entry-title"><a href="#">Aldo</a></h3>
+								<div class="entry-meta">
+									<small class="stars">
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<a href="#">1 review</a>
+									</small>
+									<small><a href="#"><i class="icon icon-location-pin"></i>23b Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-action-redo"></i>2</a></small>
+								</div>
+								<p class="entry-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+								quis nostrud exercitation aliquip ex ea commodo consequat.</p>
+							</div>
+						</div>
+
+						<div class="entry">
+							<div class="media-left">
+								<a href="img/image3.jpg" class="entry-image popup-image">
+									<img class="thumbnail" src="img/image3.jpg" alt="logo">
+									<div class="dim"></div>
+									<i class="icon icon-lg icon-magnifier"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<small class="entry-category"><a href="#">Entertainment</a></small>
+								<h3 class="entry-title"><a href="#">AMC Theatres</a></h3>
+								<div class="entry-meta">
+									<small class="stars">
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star disabled"></i>
+										<a href="#">4 reviews</a>
+									</small>
+									<small><a href="#"><i class="icon icon-location-pin"></i>23b Ground Floor</a></small>
+									<small><a href="#"><i class="icon icon-action-redo"></i>0</a></small>
+								</div>
+								<p class="entry-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua...</p>
+							</div>
+						</div>
+
+						<div class="entry no-margin">
+							<div class="media-left">
+								<a href="img/image5.jpg" class="entry-image popup-image">
+									<img class="thumbnail" src="img/image5.jpg" alt="logo">
+									<div class="dim"></div>
+									<i class="icon icon-lg icon-magnifier"></i>
+								</a>
+							</div>
+							<div class="media-body">
+								<span class="tag tag-primary right"><a href="#">HIRING</a></span>
+								<small class="entry-category"><a href="#">Restaurant</a></small>
+								<h3 class="entry-title"><a href="#">Applebee's</a></h3>
+								<div class="entry-meta">
+									<small class="stars">
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star"></i>
+										<i class="glyphicon glyphicon-star disabled"></i>
+										<a href="#">2 reviews</a>
+									</small>
+									<small><a href="#applebees" class="mapplic-link"><i class="icon icon-location-pin"></i>46 First Floor</a></small>
+									<small><a href="#"><i class="icon icon-action-redo"></i>1</a></small>
+								</div>
+								<p class="entry-desc">Ut enim ad minim veniam,
+								quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+								consequat. Ut enim ad minim veniam, quis nostrud consequat...</p>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Alphabet -->
+		<section class="sec-xs gray">
+			<div class="inner">
+				<ol class="list-unstyled browse-letters">
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">#</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="5">A</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">B</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="4">C</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">D</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="10">E</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="14">F</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="6">G</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">H</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">I</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">J</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="16">K</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">L</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">M</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="1">N</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="9">O</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">P</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="11">Q</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="12">R</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">S</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">T</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="8">U</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">V</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="3">W</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="2">X</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="0">Y</a></li>
+					<li><a href="#" data-toggle="tooltip" data-placement="top" title="7">Z</a></li>
+				</ol>
+				<div class="clearfix"></div>
+			</div>
+		</section>
+
+	</div>
+	<!-- Content ends -->
+
+	<!-- Footer -->
+	<footer id="footer" class="light-text">
+		<section class="sec-sm base-bg">
+			<div class="inner container-fluid">
+				<div class="row">
+					<div class="col-sm-4 margin-xs">
+						<a class="main-logo" href="#"><img src="img/places-logo-light.svg" alt="logo">Places<strong>MALL</strong></a>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt aliqua.</p>
+						<ul class="list-unstyled list-inline link-list">
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><i class="icon icon-social-facebook"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><i class="icon icon-social-twitter"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="LinkedIn"><i class="icon icon-social-linkedin"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><i class="icon icon-social-instagram"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="Pinterest"><i class="icon icon-social-pintarest"></i></a></li>
+							<li><a href="#" data-toggle="tooltip" data-placement="top" title="PayPal"><i class="icon icon-paypal"></i></a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4 col-sm-offset-2">
+						<h4>Clients</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">About us</a></li>
+							<li><a href="#">Team</a></li>
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Spaces</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Locations</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Directory</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+						</ul>
+					</div>
+					<div class="col-sm-2 col-xs-4">
+						<h4>Company</h4>
+						<ul class="list-unstyled link-list">
+							<li><a href="#">Careers</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">Information</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="sec-xs base-bg">
+			<div class="inner footer-bar">
+				<span class="copyright">Copyright &copy; 2016<span class="hidden-xs"> - All Rights Reserved</span></span>
+				<ul class="list-unstyled list-inline link-list right">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Contact</a></li>
+					<li><a href="#">Privacy</a></li>
+				</ul>
+			</div>
+		</section>
+	</footer>
+	<!-- Footer ends -->
+
+</div>
+	<!-- General scripts -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.sticky-kit.min.js"></script>
+	
+	<!-- Includes -->
+	<script type="text/javascript" src="js/swiper.jquery.min.js"></script>
+	<script type="text/javascript" src="js/magnificpopup.js"></script>
+	<script type="text/javascript" src="js/skycons.js"></script>
+	
+	<!-- Mapplic scripts -->
+	<script type="text/javascript" src="js/jquery.easing.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+	<script type="text/javascript" src="js/hammer.min.js"></script>
+	<script type="text/javascript" src="mapplic/mapplic.js"></script>
+	<script type="text/javascript" src="js/places.js"></script>
+</body>
+</html>
