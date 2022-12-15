@@ -37,7 +37,7 @@
 		{
 			"id": "basement-floor",
 			"title": "Basement",
-			"map": "img/map-abu.svg",
+			"map": "img/mall/mall-underground.svg",
 			"minimap": "img/mall/mall-underground-mini.jpg",
 			"locations": [
 				{
